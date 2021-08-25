@@ -33,6 +33,7 @@ int solution(vector<vector<int>> jobs) {
 }
 
 int main(void) {
+    fast;
     // input func
     // 
     return 0;

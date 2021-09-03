@@ -1,7 +1,7 @@
 int solution(string name) {
     int answer = 0;
     int f = 1, l = name.length() - 1, fc = 0, lc=0;
-
+    /*
     while (true) {
         if (name[f] == 'A') {
             f++; fc++;
@@ -35,6 +35,7 @@ int solution(string name) {
             else break;
         }
     }
+    */
     int len = name.length();
     for (int i = 0; i < len; ++i) {
         int val = name[i] - 65;
